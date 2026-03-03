@@ -1,0 +1,66 @@
+/* ========= GLOBAL STYLES ========= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* ========= CONTAINER + OUTLINE ========= */
+.container {
+    border: 8px solid #ff0000;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+/* ========= HEADER / TITLE ========= */
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#title {
+    font-size: 2.8rem;
+    transition: 0.3s ease;
+}
+
+/* ========= SECTIONS ========= */
+.section {
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* ========= FOOTER ========= */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.footer-link {
+    color: #ff4d4d;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* ========= RESPONSIVE ========= */
+@media (max-width: 600px) {
+    #title {
+        font-size: 2rem;
+    }
+}
